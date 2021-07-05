@@ -1,0 +1,107 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
+}
+hr {
+  margin: 100px;
+  height: 3px;
+}
+p {
+  text-align: justify;
+  margin-right: 30px;
+}
+.name-color {
+  color: orange;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 70%;
+  margin-top: 50px;
+}
+.ruhul-big {
+  box-shadow: 10px 10px 40px gray;
+  border: 7px solid white;
+}
+.ruhul-top {
+  box-shadow: 10px 10px 40px gray;
+  border: 7px solid white;
+  border-radius: 50%;
+}
+.text {
+  margin-bottom: 40px;
+}
+.link-button {
+  background-image: linear-gradient(orange, tomato);
+  text-decoration: none;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.link-button:hover {
+  background-image: linear-gradient(tomato, orange);
+}
+
+.top-section {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+.middle-section {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 150px;
+}
+.middle-section .messi-with-trophy {
+  width: 80%;
+}
+
+.bottom-section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: 0vh;
+}
+
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.experience-card {
+  border-radius: 10px;
+  width: 40%;
+  box-shadow: 10px 10px 40px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+}
+#full-stack-developer {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, rgb(255, 238, 0));
+  border-image-slice: 1;
+}
+#baby-web-developer {
+  /* border-left: 7px solid;
+  border-image: linear-gradient(blue, aqua);
+  border-image-slice: 1; */
+
+  border: 30px solid;
+  border-image: url(images/screw.png);
+}
+
+footer p {
+  text-align: center;
+}
